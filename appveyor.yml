@@ -25,7 +25,7 @@ init:
   - git --version
   - cmake --version
   - git config --global core.autocrlf true
-  - git clone https://github.com/rime/librime.git --depth=1 --recurse-submodules %RIME_DIR%
+  - git clone https://github.com/sbxlmdsl/librime.git --depth=1 --recurse-submodules %RIME_DIR%
 
 install:
   - .\appveyor.rime-install.bat
